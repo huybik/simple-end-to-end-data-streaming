@@ -1,6 +1,6 @@
 
-# Go Agent Stash
-
+# Simple end to end data streaming
+    Kafka Topic -> Spark Streaming (Window()) = Data Aggregated -> Cassandra -> BackEnd (Websocket) -> Dashboard UI
 <p>
 	<a  target="_blank">
 			<img src="https://github.com/tiangolo/fastapi/workflows/Test/badge.svg?event=push&branch=master" alt="Test">
@@ -13,6 +13,10 @@
 ## Introduction
 
 Simple End to End streaming project.
+
+## Architecture
+
+![Architecture](./docs/architecture.png)
 
 ## Owner
 
